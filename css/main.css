@@ -108,3 +108,15 @@ section h2{
 #entretenimento{
    background-color: #bca7f1;
 }
+
+#entretenimento a{
+   background-color: #76dff1;
+}
+
+#tech {
+   background-color: #eeb6b6;
+}
+
+#tech a {
+   background-color: #f7f756;
+}

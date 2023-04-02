@@ -39,7 +39,7 @@ header li a{
 }
 
 .articles article img{
-   /*height: 180px;*/
+   max-height: 230px;
    width: 100%;
 
 }
@@ -103,4 +103,20 @@ section h2{
 
 #economy .articles article a{
    background-color: #ff9f1a;
+}
+
+#entretenimento{
+   background-color: #bca7f1;
+}
+
+#entretenimento a{
+   background-color: #76dff1;
+}
+
+#tech {
+   background-color: #eeb6b6;
+}
+
+#tech a {
+   background-color: #f7f756;
 }

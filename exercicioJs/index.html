@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
+   <script src="main.js"></script>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,11 +17,16 @@
       <p>Digite dois números para validar o formulário:</p>
       <div class="input">  
          <form>
-            <input type="number" placeholder="Digite um numero" class="numero" id="num1">
-            <input type="number" placeholder="Digite um numero" class="numero" id="num2">
-            <button type="submit">Validar</button>
+            <input id="num1" type="number" placeholder="Digite o 1º número" class="numero" >
+            <input id="num2"type="number" placeholder="Digite o 2º número" class="numero" >
+            <button
+            id="btn" type="submit" disabled>Validar</button>
          </form>
       </div>
+      <div class="resultado"></div>
    </section>
+
+   
 </body>
+<script scr="main.js"></script>
 </html>

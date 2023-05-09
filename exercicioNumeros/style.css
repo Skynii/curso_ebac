@@ -9,6 +9,7 @@ body{
    display: flex;
    flex-direction: column;
 }
+
 header{
    background-color: rgb(148, 28, 148);
    width: 50%;
@@ -36,12 +37,12 @@ header h1{
 }
 
 .container p{
-   font-size: 20px;
+   font-size: 16px;
    text-align: center;
-   margin: 10px;
+   margin: 5px;
 }
 
-.input form{
+.input{
    display: flex;
    flex-direction: column;
    width: 40%;
@@ -61,6 +62,10 @@ header h1{
    background-color:#cb97e7;
    border: 1px solid black;
    font-weight: bolder;
+}
+
+#btn:disabled{
+   cursor:not-allowed;
 }
 #btn:hover{
    background-color: #a50af9;

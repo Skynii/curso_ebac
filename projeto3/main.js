@@ -20,7 +20,7 @@ function adicionaLinha() {
    const inputNotaAtividade = document.getElementById('notaDaAtividade');
 
    atividades.push(inputNomeAtividade.value);
-   notas.push(inputNotaAtividade.value);
+   notas.push(parseFloat(inputNotaAtividade.value));
 
    let linha = '<tr>';
    linha += `<td>${inputNomeAtividade.value}</td>`;

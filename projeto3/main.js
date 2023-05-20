@@ -40,6 +40,11 @@ function atualizaTabela() {
 }
 
 function atualizaMediaFinal() {
+   let somaDasNotas = 0;
+
+   for(let i = 0; i <notas.length; i++){
+      somaDasNotas += notas[i];
+   }
    console.log(atividades);
-   console.log(notas);
+   console.log(somaDasNotas); 
 }

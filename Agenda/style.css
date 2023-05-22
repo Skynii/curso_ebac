@@ -55,6 +55,7 @@ form input{
    border: 2px solid var(--beige);
    text-align: center;
    margin-bottom: 20px;
+   
 }
 
 form #tel{

@@ -10,4 +10,4 @@ form.addEventListener('submit', function(e) {
    const categoria= document.getElementById('categoria');
 
    console.log(nome.value)
-});
+});   

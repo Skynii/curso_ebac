@@ -1,4 +1,3 @@
-
 const form = document.querySelector('#form-agenda');
 const nomes = [];
 const telefones = [];
@@ -18,11 +17,9 @@ function adicionarContato(){
    const email= document.getElementById('email');
    const categoria= document.getElementById('categoria');
 
-   
-
    if (nomes.includes(nome.value) ){
       alert(`Contato já adicionado anteriormente!`)
-   } else if(telefones.includes(tel.value)){
+   }else if(telefones.includes(tel.value)){
       alert(`Telefone adicionado anteriormente!`)
    }else{
       nomes.push(nome.value);
@@ -36,9 +33,7 @@ function adicionarContato(){
 
       linhas += linha;}
       
-
-   [nome.value, tel.value, email.value, categoria.value] =['','','',''];
-   console.log(telefones)
+      [nome.value, tel.value, email.value, categoria.value] =['','','',''];
 }
 
 function incluirDados(){

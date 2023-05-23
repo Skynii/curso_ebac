@@ -107,3 +107,16 @@ tbody td{
    border-bottom: 2px dotted rgba(209, 209, 222, 0.5);
    color: var(--off-white)
 }
+
+footer{
+   display: flex;
+   height: 5%;
+   background-color: var(--beige);
+   justify-content: center;
+   bottom: 0;
+   left: 0;
+   height: 25px;
+   position: fixed;
+   width: 100%;
+
+}

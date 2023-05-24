@@ -18,3 +18,4 @@ Caso o nome ou telefone seja repetido, aparecer√° uma mensagem de alerta ao usu√
 
 - Campo de pesquisa de contato;
 - Filtro por categoria
+- Adicionar filtro de ordem alfabetica;

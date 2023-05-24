@@ -108,6 +108,17 @@ tbody td{
    color: var(--off-white)
 }
 
+#ordenar{
+   background-color: var(--dark-blue);
+   
+}
+#ordenar img{
+   position:relative;
+   left: 45px;
+   
+}
+
+
 footer{
    display: flex;
    height: 5%;

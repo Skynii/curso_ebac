@@ -41,3 +41,15 @@ function incluirDados(){
 
    corpoAgenda.innerHTML = linhas;
 }
+
+      function filtrarNomes(){
+         const btnFiltrar= document.querySelector('#ordenar')
+
+         btnFiltrar.addEventListener('click', function(e){
+            e.preventDefault();
+
+           `Voce está clicando aqui`
+         })
+      }
+
+      filtrarNomes();

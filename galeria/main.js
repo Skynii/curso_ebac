@@ -1,14 +1,11 @@
 $(document).ready(function(){
-   console.log(document.querySelectorAll('header button'));
-   console.log($('header button'));
-
-   document.querySelector('header button').addEventListener('click', function(){
-
-
-   });
    $('header button').click(function(){
-      alert("Expandir formulário")
+      $('form').slideDown(); //Função para aparecer o btn header
    });
+
+   $('#btn-cancelar').click(function(){
+      $('form').slideUp(); //Função para apagar o btn cancelar
+   })
 
    $('form').on('submit', function(e) {
       e.preventDefault();

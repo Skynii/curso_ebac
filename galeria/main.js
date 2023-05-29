@@ -9,5 +9,15 @@ $(document).ready(function(){
 
    $('form').on('submit', function(e) {
       e.preventDefault();
+      const enderecoNovaImagem = $('#endereco-img-nova').val();
+      const novoItem =$('<li></li>');
+      $(`<img src="${enderecoNovaImagem}"/>`).appendTo(novoItem);
+      $(`
+         <div class="overlay-imagem-link">
+            <a href="${enderecoNovaImagem}" target="_blank" title="Ver imagem em tamanho">
+               Ver imagem em tamanho real
+            </a>
+         </div>`).appendTo(novoItem);
+         $(novoItem).appendTo('ul');
    })
 });

@@ -46,7 +46,7 @@ function incluirDados(){
          const btnFiltrar= document.querySelector('#ordenar')
 
          btnFiltrar.addEventListener('click', function(e){
-            e.preventDefault();
+               ;
 
            `Voce está clicando aqui`
          })

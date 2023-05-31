@@ -1,0 +1,37 @@
+:root{
+   --guava: #FF8080;
+   --green: #1FAB89;
+   --salmon: #FFBA92;
+   --light-green: #C6F1D6;
+   --frederica:'Fredericka the Great', cursive;
+   --mont:'Montserrat', sans-serif;
+}
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   list-style: none;
+}
+
+body{
+   background-color: var(--salmon);
+   width: 100%;
+
+}
+
+.container{
+   width: 90%;
+   margin: 0 auto;
+   margin-top: 20px;
+}
+header{
+   background-color: var(--guava);
+   font-family: var(--frederica);
+   text-align: center;
+   font-size: 35px;
+   color: var(--light-green);
+   border: 3px dotted var(--light-green);
+   margin-bottom: 20px;
+   
+}

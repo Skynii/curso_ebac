@@ -1,3 +1,5 @@
 $(document).ready(function() {
-   console.log('Pronto')
+   $('#btn-add').click(function() {
+      console.log('botãoclicado')
+   })
 })

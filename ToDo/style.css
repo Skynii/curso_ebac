@@ -18,12 +18,14 @@ body{
    background-color: var(--salmon);
    width: 100%;
 
+
 }
 
 .container{
    width: 90%;
    margin: 0 auto;
    margin-top: 20px;
+   font-family: var(--mont);
 }
 header{
    background-color: var(--guava);
@@ -34,4 +36,47 @@ header{
    border: 3px dotted var(--light-green);
    margin-bottom: 20px;
    
+}
+
+div .input{
+   display: inline-flex;
+   width: 100%;
+   justify-content: center;
+   margin-bottom: 20px;
+}
+
+.input input{
+   height: 2rem;
+   margin-right: 10px;
+   width: 40%;
+   text-align: center;
+   border: 3px dotted var(--light-green);
+   font-size: 18px;
+
+}
+
+button{
+   width: 5%;
+   font-weight: bold;
+   border: 3px dotted var(--light-green);
+   background-color: var(--guava);
+}
+
+.tarefas{
+   border: 3px dotted var(--light-green);
+}
+.tarefas li{   
+   width:100%;
+   margin:5px;
+   font-size: 18px;
+}
+
+.tarefas li input{
+   width: 30px;
+   height: 15px;
+   
+}
+
+.tarefas li input:checked{
+   background-color: var(--green);
 }

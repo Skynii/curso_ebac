@@ -3,3 +3,10 @@ $(document).ready(function() {
       console.log('botãoclicado')
    })
 })
+
+$('form').on('submit', function(e) {
+   e.preventDefault();
+
+   const tarefaNova = $('#todo').val();
+   console.log(tarefaNova)
+})

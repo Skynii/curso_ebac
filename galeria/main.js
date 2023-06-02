@@ -7,7 +7,7 @@ $(document).ready(function(){
       $('form').slideUp(); //Função para apagar o btn cancelar
    })
 
-   $('fo rm').on('submit', function(e) {
+   $('form').on('submit', function(e) {
       e.preventDefault();
       const enderecoNovaImagem = $('#endereco-img-nova').val();
       const novoItem =$(`<li style="display: none"></li>`);

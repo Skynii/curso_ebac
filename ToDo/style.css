@@ -76,12 +76,12 @@ button:hover{
    font-size: 18px;
 }
 
-.tarefas li input{
-   width: 30px;
-   height: 15px;
+.check{
+   width: 35px;
+   height: 20px;
    
 }
 
-.tarefas li input:checked{
-   background-color: var(--green);
+.check:checked + label {
+   text-decoration: line-through;   
 }

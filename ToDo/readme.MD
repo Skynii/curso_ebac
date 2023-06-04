@@ -9,7 +9,7 @@
 ## Requsitos não funcionais:
 
 - [x] Código em HTML, CSS e JQuery.
-- [x] Para cada tarefa, adicional tag <li> via JQuery;
+- [x] Para cada tarefa, adicional tag "<li>" via JQuery;
 
 
 ### Implementções Futuras:

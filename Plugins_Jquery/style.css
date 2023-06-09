@@ -6,7 +6,7 @@
 }
 
 html{
-   overflow-x: hidden;
+   overflow-x: hidden   ;
 }
 
 .container{
@@ -31,6 +31,7 @@ header > .container{
 nav{
    background-color: #575FCF;
    padding: 16px 0;
+   display: none;
 }
 
 nav li{

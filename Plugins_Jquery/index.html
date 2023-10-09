@@ -208,7 +208,7 @@
             </div>
             <div class="campo-form">
                <label for="veiculo-interesse">Veiculo de interesse:</label>
-               <input type="text" id="veiculo-interesse" name="veiculo-interesse">
+               <input type="text" id="veiculoInteresse" name="veiculo-interesse">
             </div>
             <div class="campo-form">   
                <label for="mensagem">Mensagem:</label>
@@ -276,7 +276,14 @@
                email: {
                   required: true,
                   email: true
-            }
+               },
+               mensagem: {
+                  required: true,
+               },
+               veiculoInteresse: {
+                  required: false,
+               }
+
          },
          messages: {
             nome: 'Por favor, insira seu nome'

@@ -1,0 +1,1 @@
+*colocar que quando tela cheia, width 50%, ao diminuir ficar com 80%;

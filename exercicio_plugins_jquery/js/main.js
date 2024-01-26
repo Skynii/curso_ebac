@@ -24,6 +24,21 @@ $(document).ready(function() {
          email:{
             required: true,
             email: true
+         }, 
+         numero:{
+            required: true
+         },
+         endereco:{
+            required: true
+         },
+         cep: {
+            required: true
+         },
+         cidade:{
+            required: true
+         },
+         estado:{
+            required: true
          }
       },
       messages: {
@@ -35,7 +50,9 @@ $(document).ready(function() {
       },
       invalidHandler: function(evento, validador) {
          let camposIncorretos =validador.numberOfInvalids()
-         console.log(camposIncorretos)
+         if(camposIncorretos) {
+            alert (`Existem ${camposIncorretos} campos `) 
+         }
       }
    })
 })

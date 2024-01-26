@@ -1,5 +1,5 @@
 //Iniciar Jquery/
 
 $(document).ready(function() {
-   alert('Olá Jqery')
+   $('#telefone').mask('(00) 00000-0000')
 })

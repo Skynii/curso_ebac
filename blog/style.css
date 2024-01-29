@@ -24,13 +24,21 @@ header{
 }
 
 .submenu{
-   display: block;
+   display: none;
+   background-color: red;
+   position: absolute;
+   left: 0;
+   width: 300px;
+   top: 100%;/*acabou o elemento, pode comecar o novo elemento*/
+
+
 }
 
 .menu>li{
    float:left;
    padding:1rem;
    border-top: 4px solid transparent;
+   position: relative;
 }
 
 .clear{
@@ -41,8 +49,12 @@ header{
    display: block;
 }
 
+.menu li:hover{
+   border-color: red;
+}
+
 .submenu li{
    display: block;
    padding: 8px;
-   background-color: red;
+   
 }

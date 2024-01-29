@@ -3,6 +3,7 @@
    padding: 0;
    margin: 0;
    box-sizing: border-box;
+   list-style-type:none;
 }
 
 .container{
@@ -20,4 +21,22 @@ header .container{
 header{
    padding: 16px 0;
    border-bottom: 1px solid #ccc;
+}
+
+.submenu{
+   display: none;
+}
+
+.menu li{
+   float:left;
+   padding:1rem;
+   border-top: 4px solid transparent;
+}
+
+.clear{
+   clear: both;
+}
+
+.menu li:hover .submenu{
+   display: block;
 }

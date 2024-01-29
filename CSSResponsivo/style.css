@@ -5,13 +5,16 @@
 }
 
 img{
-   max-width: 300px;
+   max-width: 700px;
    display: block;
 }
 
 div{
    background-color: blueviolet;
-   height: 100px;
-   width: 100px;
-   margin: 16px 0;
+   background-image: url(dogBanana.jpg);
+   width: 700px;
+   height: 700px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   
 }

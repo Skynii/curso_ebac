@@ -19,15 +19,15 @@ header .container{
 }
 
 header{
-   padding: 16px 0;
+   padding: 16px 0 0;
    border-bottom: 1px solid #ccc;
 }
 
 .submenu{
-   display: none;
+   display: block;
 }
 
-.menu li{
+.menu>li{
    float:left;
    padding:1rem;
    border-top: 4px solid transparent;
@@ -39,4 +39,10 @@ header{
 
 .menu li:hover .submenu{
    display: block;
+}
+
+.submenu li{
+   display: block;
+   padding: 8px;
+   background-color: red;
 }

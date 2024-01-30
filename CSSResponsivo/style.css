@@ -1,0 +1,20 @@
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+img{
+   max-width: 700px;
+   display: block;
+}
+
+div{
+   background-color: blueviolet;
+   background-image: url(dogBanana.jpg);
+   width: 700px;
+   height: 700px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   
+}

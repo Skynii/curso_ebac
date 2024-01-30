@@ -99,3 +99,69 @@ aside .noticia{
    column-gap: 1%;
    row-gap: 5%;
 } 
+
+@media screen and (max-width: 767px) {
+
+   header div.container{
+      display: flex;
+      flex-direction: column;
+   }
+   .conteudo{
+      display: block;
+   }
+
+   .container{
+      max-width: 70%;
+   .destaque .noticia a{
+      display:block;
+      font-size: 1.5em;
+   }
+
+   .destaque .noticia img{
+      margin-right: 0;
+   }
+
+   .noticias{
+      display: block;
+   }
+
+   .noticias .noticia{
+      margin-bottom: 2rem;
+   }
+
+   aside{
+      padding-left: 0;
+   }
+
+   .submenu{
+      display: block;
+      position: relative;
+      border: none;
+      width: 100%;
+      
+   }
+
+   .menu{
+      display:none;
+   }
+
+   .menu>li{
+      clear: both;  
+   }
+
+   .submenu li{
+      display: block;
+      padding: .5rem;
+   }
+   
+   .btn-menu{
+      display: flex;
+      justify-content: center;
+      margin-top: 1rem;
+      padding-bottom: 1rem;
+   }
+
+   .btn-menu button{
+      padding: 0.5rem;
+   }
+}

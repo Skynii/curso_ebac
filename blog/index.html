@@ -20,6 +20,10 @@
             <button type="submit">Pesquisar</button>
          </form>
       </div>
+
+      <div class="btn-menu">
+         <button type="submit">Abrir Menu</button>
+      </div>
       <nav class="container">
          <ul class="menu">
             <li>
@@ -128,5 +132,16 @@
          </section>
       </aside>
 </body>
+
+
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+
+<script>
+   $(document).ready(function(){
+      $('.btn-menu button').click(function(){
+         $('.menu').slideToggle();
+      })
+   })
+</script>
 
 </html>

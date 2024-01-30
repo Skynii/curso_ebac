@@ -112,6 +112,8 @@ aside .noticia{
 
    .container{
       max-width: 70%;
+   }
+
    .destaque .noticia a{
       display:block;
       font-size: 1.5em;
@@ -163,5 +165,32 @@ aside .noticia{
 
    .btn-menu button{
       padding: 0.5rem;
+   }
+
+   
+}
+
+@media screen and (min-width: 768px) and ( max-width: 1023px){
+   .container{
+      max-width: 90%;
+   }
+
+   .btn-menu{
+      display:none;
+   }
+
+   .destaque .noticia a{
+      font-size: 1.5em;
+   }
+
+   .noticias{
+      grid-template-columns: repeat(2, 49%);
+   }
+
+   
+   }
+   @media screen and (min-width: 1024px){
+      .btn-menu{
+         display: none;
    }
 }

@@ -69,6 +69,9 @@ header{
    max-width: 100%;
 }
 
+.destaque{
+   margin-bottom: 3.5rem;
+}
 .destaque .noticia a{
    display: flex;
    font-size: 2em;
@@ -92,8 +95,7 @@ aside .noticia{
 
 .noticias{
    display: grid;
-   grid-template-columns: repeat(3,32.6%);
+   grid-template-columns: repeat(3, 32%);
    column-gap: 1%;
-
-
+   row-gap: 5%;
 } 

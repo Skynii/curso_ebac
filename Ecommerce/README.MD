@@ -4,6 +4,7 @@
 
 1. [] - Esqueleto em HTML
    * [] - Menu Dropdown: Sobre, produtos, contato e localização
+   * [] - barra de pesquisa
    * [] - Section Sobre nós
    * [] - Produtos - ter botão de adicionar compra
    * [] - Contato - Redes sociais  e telefones

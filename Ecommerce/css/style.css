@@ -1,0 +1,48 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: 'Dosis', sans-serif;
+   font-size: 1em;
+   list-style-type: none;
+   text-decoration: none;
+}
+
+.container{
+   max-width: 64rem;
+   width: 100%;
+   margin: 0 auto
+
+}
+header{
+   background-color: #EA1179;
+}
+header .container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+h1{
+   font-size: 5rem;
+   font-weight: bold;
+   text-transform: uppercase;
+   color: #F79BD3;
+}
+
+.menu > li{
+   padding: 1rem;
+   float: left;
+   position: relative;
+   font-size: 2em;
+   color:#F79BD3;
+   
+}
+
+li>a{
+   color:#F79BD3;
+}
+
+
+
+

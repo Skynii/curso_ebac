@@ -24,17 +24,17 @@ header .container{
 }
 
 h1{
-   font-size: 5rem;
-   font-weight: bold;
+   font-size: 5.5rem;
    text-transform: uppercase;
    color: #F79BD3;
+   padding: 1rem;
 }
 
 .menu > li{
    padding: 1rem;
    float: left;
    position: relative;
-   font-size: 2em;
+   font-size: 1.8em;
    color:#F79BD3;
    
 }
@@ -43,6 +43,42 @@ li>a{
    color:#F79BD3;
 }
 
+.submenu{
+   display: none;
+   position: absolute;
+   left: 0;
+   width: 18.75rem;
+   top: 100%;
+}
+
+.menu li:hover {
+   background-color: #9F0D7F;
+   border-top: 1px solid #241468;
+   color:#fff;
+}
+.menu li:hover .submenu{
+   display: flex;
 
 
+}
 
+.submenu li{
+   display:block;
+   padding: .5rem;
+   font-size: 1.2rem;
+}
+
+.submenu a:hover{
+   color:#fff;
+}
+
+.procura {
+   margin: 0 auto;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+
+.procura input, .procura button{
+   margin: 1rem
+}

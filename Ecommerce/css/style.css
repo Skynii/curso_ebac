@@ -14,7 +14,7 @@
    margin: 0 auto
 
 }
-header{
+header,footer{
    background-color: #EA1179;
 }
 header .container{
@@ -24,36 +24,26 @@ header .container{
 }
 
 h1{
-   font-size: 5.5rem;
+   font-size: 4.5rem;
    text-transform: uppercase;
    color: #F79BD3;
    padding: 1rem;
 }
 
 .menu > li{
-   padding: 1rem;
+   padding: 0 1rem 0 1rem;
    float: left;
    position: relative;
    font-size: 1.8em;
    color:#F79BD3;
-   
 }
 
 li>a{
    color:#F79BD3;
 }
 
-.submenu{
-   display: none;
-   position: absolute;
-   left: 0;
-   width: 18.75rem;
-   top: 100%;
-}
-
 .menu li:hover {
-   background-color: #9F0D7F;
-   border-top: 1px solid #241468;
+   border-top: 2px solid #241468;
    color:#fff;
 }
 .menu li:hover .submenu{
@@ -62,10 +52,17 @@ li>a{
 
 }
 
-.submenu li{
-   display:block;
-   padding: .5rem;
-   font-size: 1.2rem;
+.submenu{
+   display: none;
+   position: absolute;
+   left: 0;
+   top: 100%;
+   width: 31.25rem;
+}
+
+.submenu>li{
+   padding: 5px;
+   font-size: 16px;
 }
 
 .submenu a:hover{
@@ -81,4 +78,90 @@ li>a{
 
 .procura input, .procura button{
    margin: 1rem
+}
+
+/*--------- Corpo----*/
+
+h2, h3{
+   font-size: 2rem;
+   border-bottom: 1px solid #241468;
+   padding-bottom: 1.5rem;
+}
+.about{
+   display: flex;
+   padding: 1rem;
+}
+
+.text{
+   margin: 1.5rem;
+   padding-bottom:0.5rem ;
+   text-align: justify;
+   font-size: 1.2rem;
+}
+
+p{
+   padding-top: 0.5rem;
+}
+
+h3{
+   font-size: 1.5rem;
+}
+
+section{
+   padding: 1rem;
+}
+
+/*----------Produtos---------*/
+
+.produtos{
+   padding-top: 1rem;
+   display: grid;
+   grid-template-columns:repeat(4, 24%);
+   column-gap: 1%;
+}
+
+.produtos article{
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+}
+
+button{
+   background-color: #EA1179;
+   color:#FFF;
+   border: none;
+   border-radius: 5px;
+
+}
+
+button:hover{
+   background-color:#9F0D7F;
+   
+}
+
+.mapa{
+   display: flex;
+   font-size: 1.5rem;
+   justify-content: space-around;
+   align-items: center;
+   padding-top: 1rem;
+   text-align: center;
+}
+
+.contato img{
+   width: 80px;
+   height: 80px;
+}
+
+.contato ul{
+   padding-top: 1rem;
+   display:flex ;
+   justify-content: space-around;
+}
+
+footer{
+   font-size: 1.3rem;
+   text-align: center;
+   color:#FFF;
 }

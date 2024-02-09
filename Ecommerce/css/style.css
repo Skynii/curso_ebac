@@ -191,6 +191,16 @@ footer{
    display: none;
    }
 
+   p{
+      font-size: 1rem;
+   }
+
+   .mapa div{
+      width: 50%;
+   }
+   .mapa p{
+      padding-right: 10px;
+   }
    header h1{
       font-size: 3rem;
    }
@@ -218,6 +228,10 @@ footer{
       height: 18.75rem;
    }
    
+   .contato img{
+      width: 3.125rem;
+      height: 3.125rem;
+   }
 }
 
 @media screen and (min-width: 641px) and ( max-width: 1023px){
@@ -226,17 +240,33 @@ footer{
       max-width:95%;
    }
 
-   header .container{
-      display: flex;
+   header{
+      justify-content: space-between;
+      width:100%;
    }
    header h1{
-      font-size: 3rem;
+      font-size: 2rem;
+   }
+
+   .menu{
+      display:flex;
    }
    .menu>li{
       font-size: 1.2rem;
-      display:flex;
-      background-color: #241468;
       padding: 0 10px 0;
+   }
+
+   p{
+   font-size: 1rem;
+   }
+   .produtos{
+      display:grid;
+      grid-template-columns: repeat(2, 48%);
+      column-gap: 2%;
+   }
+
+   .produtos article{
+      padding-bottom: 10px;
    }
    
 }
